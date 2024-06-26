@@ -6,15 +6,18 @@ public class Window {
     public Window() {
         f = new JFrame();
         f.setVisible(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public Window(String windowTitle) {
         f = new JFrame(windowTitle);
         f.setVisible(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     } 
     public Window(String windowTitle, int xSize, int ySize) {
         f = new JFrame(windowTitle);
         f.setVisible(true);
         f.setSize(xSize, ySize);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     } 
     public void setSize(int xSize, int ySize) {
         f.setSize(xSize, ySize);
@@ -27,12 +30,12 @@ public class Window {
         n.setHorizontalAlignment(xPosition);
         n.setVerticalAlignment(yPosition);
         f.add(n);
-        f.repaint();
+
     }
     public void addText(String text) {
         JLabel n = new JLabel(text);
         f.add(n);
-        f.repaint();
+
     }
     public JFrame getWindow() {
         return f;
