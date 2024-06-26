@@ -14,6 +14,7 @@ public class Text {
         t.setHorizontalAlignment(xLocation);
         t.setVerticalAlignment(yLocation);
     }
+    // getter
     public JLabel get() {
         return t;
     }

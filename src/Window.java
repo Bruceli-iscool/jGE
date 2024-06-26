@@ -28,6 +28,7 @@ public class Window {
     public void addText(Text value) {
         f.add(value.get());
     }
+    // getter
     public JFrame getWindow() {
         return f;
     }
