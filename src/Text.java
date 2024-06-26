@@ -10,6 +10,10 @@ public class Text {
         t.setHorizontalAlignment(xLocation);
         t.setVerticalAlignment(yLocation);
     }
+    public void setLocation(int xLocation, int yLocation) {
+        t.setHorizontalAlignment(xLocation);
+        t.setVerticalAlignment(yLocation);
+    }
     public JLabel get() {
         return t;
     }
