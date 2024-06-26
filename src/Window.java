@@ -29,6 +29,11 @@ public class Window {
         f.add(n);
         f.repaint();
     }
+    public void addText(String text) {
+        JLabel n = new JLabel(text);
+        f.add(n);
+        f.repaint();
+    }
     public JFrame getWindow() {
         return f;
     }
