@@ -1,5 +1,5 @@
 import javax.swing.*;
-
+import java.awt.event.*;
 
 public class Window {
     private final JFrame f;
@@ -33,4 +33,3 @@ public class Window {
     public JFrame getWindow() {
         return f;
     }
-}
