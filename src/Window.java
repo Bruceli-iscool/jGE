@@ -25,17 +25,8 @@ public class Window {
     public void name(String name) {
         f.setTitle(name);
     } 
-    public void addText(String text, int xPosition, int yPosition) {
-        JLabel n = new JLabel(text);
-        n.setHorizontalAlignment(xPosition);
-        n.setVerticalAlignment(yPosition);
-        f.add(n);
-
-    }
-    public void addText(String text) {
-        JLabel n = new JLabel(text);
-        f.add(n);
-
+    public void addText(Text value) {
+        f.add(value.get());
     }
     public JFrame getWindow() {
         return f;
