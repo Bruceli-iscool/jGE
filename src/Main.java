@@ -4,4 +4,4 @@ public class Main {
         Text t = new Text("hi");
         n.addText(t);
     }
-}
+};
