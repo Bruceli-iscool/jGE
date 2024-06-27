@@ -12,6 +12,6 @@ public class Button {
     public void setSize(int Xsize, int Ysize) {
         b.setSize(Xsize, Ysize);
     }
-        
+    
 }
 
