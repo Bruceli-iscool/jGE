@@ -5,5 +5,5 @@ public class Event {
     public Event() {
         // event constructor
         
-    }
+    } 
 }
