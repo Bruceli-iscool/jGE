@@ -12,7 +12,7 @@ public class Window {
         f = new JFrame(windowTitle);
         f.setVisible(true);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    } 
+    }  
     public Window(String windowTitle, int xSize, int ySize) {
         f = new JFrame(windowTitle);
         f.setVisible(true);
