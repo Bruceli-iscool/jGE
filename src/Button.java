@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.event.*;
 
 public class Button {
     private final JButton b;
@@ -13,8 +12,8 @@ public class Button {
     public void setSize(int Xsize, int Ysize) {
         b.setSize(Xsize, Ysize);
     }
-    public void isPressed() {
-        
+    public boolean isPressed() {
+        return false;
     }
 }
 
