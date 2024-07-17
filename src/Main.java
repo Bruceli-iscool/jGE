@@ -3,5 +3,5 @@ public class Main {
         Window n = new Window("", 500, 600);
         Text t = new Text("hi");
         n.addText(t);
-    }
+    };
 };
