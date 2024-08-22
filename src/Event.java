@@ -4,6 +4,6 @@ import java.awt.Event.*;
 public class Event {
     public Event() {
         // event constructor
-        
+         
     } 
 }
